@@ -71,7 +71,7 @@ const Projects = () => {
                             </h3>
 
                             {/* Description */}
-                            <p className="text-slate-400 text-sm mb-4">
+                            <p className="text-slate-300 text-sm mb-4">
                                 {project.description}
                             </p>
 
@@ -93,7 +93,7 @@ const Projects = () => {
                                     href={project.demo}
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="flex items-center gap-2 text-sm px-4 py-2 rounded-md border border-white/20 transition hover:border-green-500 hover:text-green-500"
+                                    className="flex items-center gap-2 text-sm px-4 py-2 rounded-md border border-white/20 transition hover:border-green-500 "
                                 >
                                     <FaExternalLinkAlt size={14} />
                                     Demo
@@ -103,7 +103,7 @@ const Projects = () => {
                                     href={project.github}
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="flex items-center gap-2 text-sm px-4 py-2 rounded-md border border-white/20 transition hover:border-green-500 hover:text-green-500"
+                                    className="flex items-center gap-2 text-sm px-4 py-2 rounded-md border border-white/20 transition hover:border-green-500 "
                                 >
                                     <FaGithub size={14} />
                                     Code

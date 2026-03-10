@@ -85,15 +85,15 @@ const Contact = () => {
                     <h3 className="text-lg font-medium mb-6">Contact Information</h3>
                     <div className="space-y-6 text-slate-300">
                         <div>
-                            <p className="text-sm text-slate-400">Email</p>
+                            <p className="text-sm text-slate-300">Email</p>
                             <p className="text-white">sumagangjoren@gmail.com</p>
                         </div>
                         <div>
-                            <p className="text-sm text-slate-400">Phone</p>
+                            <p className="text-sm text-slate-300">Phone</p>
                             <p className="text-white">+63 951 448 0759</p>
                         </div>
                         <div>
-                            <p className="text-sm text-slate-400">Location</p>
+                            <p className="text-sm text-slate-300">Location</p>
                             <p className="text-white">Cebu, Philippines</p>
                         </div>
                     </div>

@@ -46,6 +46,35 @@ const About = () => {
                             I am passionate about learning new technologies and staying up-to-date with the latest trends in web development.
                         </p>
                     </div>
+                    <div className="mt-10">
+
+                        <h3 className=" mb-4 text-xl">
+                            Academic Achievements
+                        </h3>
+
+                        <ul className="space-y-3 text-slate-300 ">
+
+                            <li className="flex items-start gap-3">
+                                <span className="text-yellow-400">🏆</span>
+                                <a href="https://www.facebook.com/photo.php?fbid=122143038146225287&set=a.122138044436225287&type=3" target="_blank" rel="noreferrer" className="hover:text-green-500 transition">
+                                    <span>
+                                        <strong>1st Place</strong> – Programming Competition (3rd Year)
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li className="flex items-start gap-3">
+                                <span className="text-gray-300">🥈</span>
+                                <a href="https://www.facebook.com/photo.php?fbid=173082538896856&set=a.115608564644254&type=3" target="_blank" rel="noopener noreferrer" className="hover:text-green-500 transition">
+                                    <span>
+                                        <strong>2nd Place</strong> – Programming Competition (2nd Year)
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
                 </div>
 
                 {/* Right */}
