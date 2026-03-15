@@ -34,17 +34,17 @@ const About = () => {
                     <h2 className="text-xl">A bit about me</h2>
 
                     <div className="space-y-4 text-slate-300 leading-relaxed">
-                        <p>
-                            I have always been fascinated by the power of the internet and how it can connect people and ideas from all over the world.
-                        </p>
+                       <p>
+                        I hold a Bachelor's degree in Information Technology and see myself as someone who is always learning. 
+                        {/* I believe that learning never really stops, especially in technology where things are constantly evolving. */}
+                        Technology is constantly evolving, and I believe the learning process never truly stops.
+                       </p>
 
-                        <p>
-                            I believe that successful web development is all about collaboration and communication. I work closely with clients to understand their needs and preferences.
-                        </p>
-
-                        <p>
-                            I am passionate about learning new technologies and staying up-to-date with the latest trends in web development.
-                        </p>
+                       <p>
+                        I am someone who enjoys learning and always eager to expand what I know. 
+                        I believe that working smart is just as important as working hard, and that thoughtful problem solving leads to better results. 
+                        For me, being a developer also means staying curious and embracing the mindset of a lifelong learner.
+                       </p>
                     </div>
                     <div className="mt-10">
 
