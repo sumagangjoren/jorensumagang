@@ -2,28 +2,29 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"
 
 const projects = [
     {
-        title: "Portfolio Website",
+        title: "Wordvault",
         description:
-            "A personal developer portfolio showcasing projects, skills, and contact information.",
-        image: "/projects/sampleproject.png",
-        tech: ["React", "TypeScript", "Tailwind"],
-        demo: "#",
-        github: "#",
+            "A sleek, TikTok-style vocabulary learning app and interactive quizzes.",
+        image: "/projects/wordvault.svg",
+        tech: ["React", "Node.js", "Supabase"],
+        demo: "https://wordvault-iota.vercel.app",
+        github: "https://github.com/sumagangjoren/wordvault",
     },
     {
-        title: "Task Manager App",
+        title: "Skycast",
         description:
-            "A full-stack task manager with authentication and CRUD functionality.",
-        image: "/projects/sampleproject.png",
-        tech: ["React", "Node.js", "Express", "MongoDB"],
-        demo: "#",
-        github: "#",
+            "A modern, responsive weather dashboard with AI-powered insights, real-time tracking, and multi-location favorites.",
+        image: "/projects/skycast.svg",
+        tech: ["React", "Tailwind"],
+        demo: "https://skycast-kappa-two.vercel.app",
+        github: "https://github.com/sumagangjoren/skycast",
     },
+    
     {
-        title: "E-commerce Dashboard",
+        title: "Taytayan Camp Hub",
         description:
             "Admin dashboard for managing products, users, and orders.",
-        image: "/projects/sampleproject.png",
+        image: "/projects/taytayancamphub.svg",
         tech: ["Next.js", "Prisma", "PostgreSQL"],
         demo: "#",
         github: "#",
@@ -57,10 +58,10 @@ const Projects = () => {
                         {/* Image */}
                         <div className="overflow-hidden">
                             <img
-                                src={project.image}
-                                alt={project.title}
-                                className="w-full h-48 object-cover transition duration-500 hover:scale-105 opacity-90"
-                            />
+    src={project.image}
+    alt={project.title}
+    className="w-full h-full object-contain p-2 bg-white/5 transition duration-500 hover:scale-105 opacity-90"
+/>
                         </div>
 
                         <div className="p-6">

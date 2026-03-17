@@ -7,7 +7,7 @@ import Contact from './components/contact'
 import Projects from './components/projects'
 import Home from './components/home'
 // import ParticleBackground from './components/particleBackground'
-import { SpeedInsights } from '@vercel/speed-insights/next';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const Line = () => {
     return (
