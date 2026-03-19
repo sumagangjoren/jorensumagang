@@ -6,7 +6,7 @@ const projects = [
         description:
             "A sleek, TikTok-style vocabulary learning app and interactive quizzes.",
         image: "/projects/wordvault.svg",
-        tech: ["React", "Node.js", "Supabase"],
+        tech: ["React", "Tailwind", "Supabase"],
         demo: "https://wordvault-iota.vercel.app",
         github: "https://github.com/sumagangjoren/wordvault",
     },
@@ -25,18 +25,18 @@ const projects = [
         description:
             "Admin dashboard for managing products, users, and orders.",
         image: "/projects/taytayancamphub.svg",
-        tech: ["Next.js", "Prisma", "PostgreSQL"],
-        demo: "#",
-        github: "#",
+        tech: ["Laravel", "Vue", "InertiaJs", "MySQL", "Quasar", "Pinia"],
+        demo: "#",  
+        github: "https://github.com/sumagangjoren/taytayan-camp-hub",
     },
     {
-        title: "Chat Application",
+        title: "Spotify Chat",
         description:
             "Real-time messaging app using websockets.",
-        image: "/projects/sampleproject.png",
-        tech: ["React", "Socket.io", "Node.js"],
-        demo: "#",
-        github: "#",
+        image: "/projects/spotifychat.svg",
+        tech: ["Vue", "Vuetify", "Node.js", "jsonwebtoken", "socket.io", "MySQL", "Pinia"],
+        demo: "https://spotify-chat-tilf.onrender.com/",
+        github: "https://github.com/sumagangjoren/spotify-chat",
     },
 ]
 
@@ -45,7 +45,6 @@ const Projects = () => {
         <section id="projects" className="min-h-screen py-20">
             <div>
                 <h2 className="text-xl mb-10">Some of my projects</h2>
-
             </div>
             {/* Grid */}
             <div className="grid md:grid-cols-2 gap-8">

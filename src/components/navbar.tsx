@@ -20,11 +20,12 @@ const Navbar = () => {
                 entries.forEach((entry) => {
                     if (entry.isIntersecting) {
                         setActiveSection(entry.target.id)
+                        console.log(entry.target.id)
                     }
                 })
             },
             {
-                threshold: 0.6
+                threshold: 0.3
             }
         )
         sections.forEach((section) => observer.observe(section))
