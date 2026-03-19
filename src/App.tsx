@@ -8,6 +8,7 @@ import Projects from './components/projects'
 import Home from './components/home'
 // import ParticleBackground from './components/particleBackground'
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from "@vercel/analytics/react"
 
 const Line = () => {
     return (
@@ -34,6 +35,7 @@ function App() {
                 </div>
             </div>
             <SpeedInsights />
+            <Analytics />
         </>
     )
 }
