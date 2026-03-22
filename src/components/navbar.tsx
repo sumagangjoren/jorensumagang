@@ -113,6 +113,7 @@ const Navbar = () => {
                             <a
                                 key={link.href}
                                 href={link.href}
+                                onClick={() => setIsMenuOpen(false)}
                                 className="px-6 py-4 text-slate-200 transition hover:text-green-500 text-end"
                             >
                                 {link.label}
