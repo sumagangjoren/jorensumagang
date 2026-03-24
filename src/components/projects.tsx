@@ -2,9 +2,27 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"
 
 const projects = [
     {
+        title: "Taytayan Camp Hub",
+        description:
+            "A full-stack multi-role web application for a camp resort in Olango Island, featuring food ordering, room booking, and event ticketing with real-time order tracking and online payments.",
+        image: "/projects/taytayancamphub.svg",
+        tech: ["Laravel", "Vue", "InertiaJs", "MySQL", "Quasar", "Pinia", "Paymongo API", "Google Maps API"],
+        demo: "",  
+        github: "https://github.com/sumagangjoren/taytayan-camp-hub",
+    },
+    {
+        title: "Spotify Chat",
+        description:
+            "A real-time chat application built with Node.js and Express that integrates the Spotify Web API, enabling users to share and discover music within live chat sessions via WebSocket connections.",
+        image: "/projects/spotifychat.svg",
+        tech: ["Vue", "Vuetify", "Node.js", "jsonwebtoken", "socket.io", "MySQL", "Pinia"],
+        demo: "https://spotify-chat-tilf.onrender.com/",
+        github: "https://github.com/sumagangjoren/spotify-chat",
+    },
+    {
         title: "Wordvault",
         description:
-            "A sleek, TikTok-style vocabulary learning app and interactive quizzes.",
+            "A vocabulary learning app to save words, organize collections, take quizzes, and write notes.",
         image: "/projects/wordvault.svg",
         tech: ["React", "Tailwind", "Supabase"],
         demo: "https://wordvault-iota.vercel.app",
@@ -18,25 +36,6 @@ const projects = [
         tech: ["React", "Tailwind"],
         demo: "https://skycast-kappa-two.vercel.app",
         github: "https://github.com/sumagangjoren/skycast",
-    },
-    
-    {
-        title: "Taytayan Camp Hub",
-        description:
-            "Admin dashboard for managing products, users, and orders.",
-        image: "/projects/taytayancamphub.svg",
-        tech: ["Laravel", "Vue", "InertiaJs", "MySQL", "Quasar", "Pinia"],
-        demo: "#",  
-        github: "https://github.com/sumagangjoren/taytayan-camp-hub",
-    },
-    {
-        title: "Spotify Chat",
-        description:
-            "Real-time messaging app using websockets.",
-        image: "/projects/spotifychat.svg",
-        tech: ["Vue", "Vuetify", "Node.js", "jsonwebtoken", "socket.io", "MySQL", "Pinia"],
-        demo: "https://spotify-chat-tilf.onrender.com/",
-        github: "https://github.com/sumagangjoren/spotify-chat",
     },
 ]
 
@@ -89,15 +88,17 @@ const Projects = () => {
 
                             {/* Buttons */}
                             <div className="flex gap-4">
-                                <a
-                                    href={project.demo}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="flex items-center gap-2 text-sm px-4 py-2 rounded-md border border-white/20 transition hover:border-green-500 "
-                                >
-                                    <FaExternalLinkAlt size={14} />
-                                    Demo
-                                </a>
+                                {project.demo && (
+                                    <a
+                                        href={project.demo}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        className="flex items-center gap-2 text-sm px-4 py-2 rounded-md border border-white/20 transition hover:border-green-500 "
+                                    >
+                                        <FaExternalLinkAlt size={14} />
+                                        Demo
+                                    </a>
+                                )}
 
                                 <a
                                     href={project.github}
