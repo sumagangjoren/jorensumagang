@@ -21,8 +21,10 @@ const Home = () => {
                 <div className="flex justify-center gap-4 py-5">
 
                     <a
-                        href="#home"
+                        href="/resume.pdf"
                         className="rounded-lg px-6 py-3 text-sm  cursor-pointer border-green-500 border hover:bg-green-400 hover:text-black"
+                        download="JorenSumagang.pdf"
+                        
                     >
                         Download Resume
                     </a>
